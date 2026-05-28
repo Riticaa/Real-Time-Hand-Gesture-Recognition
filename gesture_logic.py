@@ -22,3 +22,23 @@ def detect_gesture(landmarks):
         return "PEACE ✌️"
     else:
         return "UNKNOWN"
+    
+class GestureRecognizer:
+
+    def recognize_gesture(self, fingers):
+
+        if fingers == [0, 1, 0, 0, 0]:
+            return "One Finger"
+
+        elif fingers == [0, 1, 1, 0, 0]:
+            return "Peace Sign"
+
+        elif fingers == [1, 1, 1, 1, 1]:
+            return "Open Palm"
+
+        elif fingers == [0, 0, 0, 0, 0]:
+            return "Fist"
+
+        else:
+            return "Unknown"
+    

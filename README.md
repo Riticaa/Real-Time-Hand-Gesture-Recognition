@@ -1,4 +1,4 @@
-# 🖐️ Real-Time Hand Gesture Recognition System (CLI-Based)
+# 🖐️ Real-Time Hand Gesture Recognition System
 
 ---
 
